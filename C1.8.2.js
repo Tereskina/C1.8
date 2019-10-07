@@ -2,6 +2,6 @@
 // текстовое содержимое выбранных элементов.
 
 jQuery.prototype.text = function(text){
-	this.each(element => element.textContect = text);
+	this.each(element => element.textContent = text);
 	return this;
 }
